@@ -1,0 +1,24 @@
+<style>
+.catalog-header {
+        height: 70vh;
+        min-height: 500px;
+        display: flex;
+      align-items: center;
+      justify-content: center;
+        background-image: linear-gradient(45deg ,var(--_main-clr-lighter),var(--_main-clr-lighter)), url("../../assets/whiteNoBg.png");
+        background-attachment: fixed;
+
+        p{
+            font-size: clamp(3rem,10vw, 7rem);
+        }
+     
+    }
+
+</style>
+
+
+<header class="catalog-header">
+    <p class="huge-text">catalog</p>
+</header>
+
+<router-outlet></router-outlet>
